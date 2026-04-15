@@ -1,0 +1,23 @@
+INSERT IGNORE INTO products.product_table(price, quantity,sku,title_x)
+VALUES
+(12.5,4,'Parle756','ParleBiscuit'),
+(22.5,9,'Pepsi','Pepsi'),
+(18.5,8,'Mazza','Mazza'),
+(10.0,5,'GoodDay','BritanniaGoodDay'),
+(30.0,10,'Coke','CocaCola'),
+(25.0,7,'Fanta','Fanta'),
+(15.0,6,'LaysClassic','LaysChips'),
+(20.0,8,'Kurkure','KurkureMasala'),
+(35.0,12,'DairyMilk','CadburyDairyMilk'),
+(40.0,15,'Kitkat','NestleKitkat'),
+(28.0,9,'Sprite','Sprite'),
+(50.0,20,'RedBull','RedBullEnergyDrink'),
+(12.0,4,'MarieGold','BritanniaMarieGold'),
+(18.0,6,'HideSeek','HideAndSeek'),
+(22.0,10,'Bingo','BingoMadAngles'),
+(60.0,5,'Tropicana','TropicanaJuice'),
+(45.0,7,'RealJuice','DaburRealJuice'),
+(55.0,11,'AmulButter','AmulButter'),
+(70.0,6,'AmulCheese','AmulCheese'),
+(90.0,8,'Cornflakes','KelloggsCornflakes'),
+(35.0,9,'Maggi','MaggiNoodles');

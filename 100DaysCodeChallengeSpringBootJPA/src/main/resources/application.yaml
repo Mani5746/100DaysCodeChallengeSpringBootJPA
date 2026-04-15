@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: 100DaysCodeChallengeSpringBootJPA
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/Products
+    username: root
+    password: Manish@5746370
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql
