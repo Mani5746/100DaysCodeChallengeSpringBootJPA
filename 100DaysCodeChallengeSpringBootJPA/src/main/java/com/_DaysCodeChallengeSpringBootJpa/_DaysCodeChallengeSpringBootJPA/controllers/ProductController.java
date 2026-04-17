@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping(path="/products")
 public class ProductController {
-private final int  PAGE_SIZE=7;
+private final int  PAGE_SIZE=9;
     private final ProductRepository productRepository;
 
     public ProductController(ProductRepository productRepository) {
